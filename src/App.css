@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
+  height: 152px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-weight: 200;
+  font-size: 48px;
+  margin-left: 32px;
+  line-height: 60px;
+}
+
+button {
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div > button {
+  background-color: white;
+  color: hsl(249, 61%, 55%);
+  width: 60%;
+  font-size: 36px;
+  padding: 8px;
+}
+
+div > button:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+aside {
+  display: flex;
+}
+
+main > button {
+  font-size: 48px;
+  width: 250px;
+  color: white;
+  border-width: 1px;
+  padding: 32px 0;
+  margin-left: 96px;
+}
+
+.active {
+  background-color: #5c48d3;
+  color: white;
+  border: 1px solid #5c48d3;
+}
+
+.not-active {
+  background-color: white;
+  color: hsl(249, 61%, 55%);
+  border: 1px solid lightgray;
+}
