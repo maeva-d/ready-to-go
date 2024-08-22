@@ -46,7 +46,7 @@ aside {
   display: flex;
 }
 
-main > button {
+main > span {
   font-size: 48px;
   width: 250px;
   color: white;
@@ -65,4 +65,20 @@ main > button {
   background-color: white;
   color: hsl(249, 61%, 55%);
   border: 1px solid lightgray;
+}
+
+.statusOK {
+  background-color: green;
+}
+
+.statusNO {
+  background-color: #d34848;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline;
 }
